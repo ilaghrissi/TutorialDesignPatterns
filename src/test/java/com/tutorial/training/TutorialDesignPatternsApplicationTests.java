@@ -25,7 +25,7 @@ public class TutorialDesignPatternsApplicationTests {
 	}
 
 	@Test
-	public void factoryMathodTest() {
+	public void factoryMethodTest() {
 		ShapeFactory shapeFactory = new ShapeFactory();
 		Shape circle = shapeFactory.getShape(ShapeType.CIRCLE);
 		Shape c = circle.draw();
